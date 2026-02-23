@@ -90350,7 +90350,7 @@ this.aw()},
 pP(){var s=0,r=A.O(t.H),q=1,p=[],o=this,n,m,l,k,j,i,h
 var $async$pP=A.K(function(a,b){if(a===1){p.push(b)
 s=q}while(true)switch(s){case 0:q=3
-n=A.d9("http://192.168.29.3:8080/orders/"+o.a.c,0,null)
+n=A.d9("https://api.leiriaeats.com/orders/"+o.a.c,0,null)
 s=6
 return A.P(A.axo(n),$async$pP)
 case 6:m=b
@@ -90377,7 +90377,7 @@ var $async$o9=A.K(function(c,d){if(c===1){p.push(d)
 s=q}while(true)switch(s){case 0:f=a.e
 o.R(new A.ari(a))
 q=3
-n=A.d9("http://192.168.29.3:8080/orders/"+a.a+"/status",0,null)
+n=A.d9("https://api.leiriaeats.com/orders/"+a.a+"/status",0,null)
 j=t.N
 i=A.ak(["Content-Type","application/json"],j,j)
 s=6
