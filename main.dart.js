@@ -101137,7 +101137,7 @@ j(a,b){if(b==null)return!1
 return b instanceof A.eW&&this.a===b.a&&this.b===b.b}}
 A.QF.prototype={
 L(a){var s=null,r=A.tN(s,A.aO6(B.aD,s,s,B.Jd),B.b_,!0)
-return new A.D_(A.ae(["/",new A.ae7(),"/cadastro",new A.ae8(),"/sucesso",new A.ae9()],t.N,t.Ab),"/","Gest\xe3o Leiria Eats",r,!1,s)}}
+return new A.D_(A.ae(["/",new A.ae7(),"/cadastro",new A.ae8(),"/sucesso",new A.ae9()],t.N,t.Ab),"/","Koma Restaurant",r,!1,s)}}
 A.ae7.prototype={
 $1(a){return B.yq},
 $S:243}
