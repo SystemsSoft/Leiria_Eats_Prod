@@ -102095,7 +102095,7 @@ r.au()},
 rM(){var s=0,r=A.J(t.H),q=1,p=[],o=this,n,m,l,k,j,i,h
 var $async$rM=A.F(function(a,b){if(a===1){p.push(b)
 s=q}for(;;)switch(s){case 0:q=3
-n=A.ch("https://api.inovacloud.app/orders/"+o.a.c,0,null)
+n=A.ch("https://api.leiriaeats.com/orders/"+o.a.c,0,null)
 s=6
 return A.y(A.nE(n,null),$async$rM)
 case 6:m=b
@@ -102160,7 +102160,7 @@ var $async$td=A.F(function(a0,a1){if(a0===1){p.push(a1)
 s=q}for(;;)switch(s){case 0:d=a.e
 o.N(new A.aAk(a))
 q=3
-n=A.ch("https://api.inovacloud.app/orders/"+a.a+"/status",0,null)
+n=A.ch("https://api.leiriaeats.com/orders/"+a.a+"/status",0,null)
 h=t.N
 g=A.ae(["Content-Type","application/json"],h,h)
 s=6
@@ -102304,7 +102304,7 @@ s=q}for(;;)switch(s){case 0:a=a2.e
 a0=a2.w
 o.N(new A.azL(a2))
 q=3
-f="https://api.inovacloud.app/orders/"+a2.a
+f="https://api.leiriaeats.com/orders/"+a2.a
 n=A.ch(f+"/status",0,null)
 e=t.N
 d=A.ae(["Content-Type","application/json"],e,e)
@@ -103101,7 +103101,7 @@ aH0(a,b,a0){var s=0,r=A.J(t.ob),q,p=2,o=[],n,m,l,k,j,i,h,g,f,e,d,c
 var $async$qZ=A.F(function(a1,a2){if(a1===1){o.push(a2)
 s=p}for(;;)switch(s){case 0:p=4
 n=a0?"product":"company"
-m=A.ch("https://api.inovacloud.app/upload/image?type="+A.k(n),0,null)
+m=A.ch("https://api.leiriaeats.com/upload/image?type="+A.k(n),0,null)
 A.bE("\ud83d\udce4 Upload de imagem ("+A.k(n)+") para: "+A.k(m))
 l=A.b0J("POST",m)
 g=l.y
@@ -103144,7 +103144,7 @@ return A.I($async$qZ,r)},
 Db(a){return this.ayU(a)},
 ayU(a){var s=0,r=A.J(t.bo),q,p=2,o=[],n,m,l,k,j,i,h
 var $async$Db=A.F(function(b,c){if(b===1){o.push(c)
-s=p}for(;;)switch(s){case 0:i=A.ch("https://api.inovacloud.app/companies",0,null)
+s=p}for(;;)switch(s){case 0:i=A.ch("https://api.leiriaeats.com/companies",0,null)
 p=4
 k=t.N
 k=A.ae(["Content-Type","application/json"],k,k)
@@ -103180,7 +103180,7 @@ return A.I($async$Db,r)},
 zw(a){return this.a6m(a)},
 a6m(a){var s=0,r=A.J(t.ob),q,p=2,o=[],n,m,l,k,j,i,h
 var $async$zw=A.F(function(b,c){if(b===1){o.push(c)
-s=p}for(;;)switch(s){case 0:i=A.ch("https://api.inovacloud.app/connect/onboarding/"+a,0,null)
+s=p}for(;;)switch(s){case 0:i=A.ch("https://api.leiriaeats.com/connect/onboarding/"+a,0,null)
 p=4
 s=7
 return A.y(A.zM(i,null,null),$async$zw)
@@ -103212,7 +103212,7 @@ Dd(a){return this.ayY(a)},
 ayY(a){var s=0,r=A.J(t.y),q,p=2,o=[],n,m,l,k,j,i
 var $async$Dd=A.F(function(b,c){if(b===1){o.push(c)
 s=p}for(;;)switch(s){case 0:p=4
-n=A.ch("https://api.inovacloud.app/product",0,null)
+n=A.ch("https://api.leiriaeats.com/product",0,null)
 A.bE("\ud83c\udf54 Salvando produto em: "+A.k(n))
 k=t.N
 k=A.ae(["Content-Type","application/json"],k,k)
@@ -103247,7 +103247,7 @@ EB(a,b){return this.aDg(a,b)},
 aDg(a,b){var s=0,r=A.J(t.nA),q,p=2,o=[],n,m,l,k,j,i,h
 var $async$EB=A.F(function(c,d){if(c===1){o.push(d)
 s=p}for(;;)switch(s){case 0:p=4
-n=A.ch("https://api.inovacloud.app/login",0,null)
+n=A.ch("https://api.leiriaeats.com/login",0,null)
 k=t.N
 j=A.ae(["Content-Type","application/json"],k,k)
 s=7
@@ -103282,7 +103282,7 @@ zj(a){return this.a5R(a)},
 a5R(a){var s=0,r=A.J(t.nA),q,p=2,o=[],n,m,l,k,j,i
 var $async$zj=A.F(function(b,c){if(b===1){o.push(c)
 s=p}for(;;)switch(s){case 0:p=4
-n=A.ch("https://api.inovacloud.app/companies/"+a,0,null)
+n=A.ch("https://api.leiriaeats.com/companies/"+a,0,null)
 s=7
 return A.y(A.nE(n,null),$async$zj)
 case 7:m=c
@@ -103313,7 +103313,7 @@ FW(a,b){return this.aGR(a,b)},
 aGR(a,b){var s=0,r=A.J(t.y),q,p=2,o=[],n,m,l,k,j,i
 var $async$FW=A.F(function(c,d){if(c===1){o.push(d)
 s=p}for(;;)switch(s){case 0:p=4
-n=A.ch("https://api.inovacloud.app/companies/"+a,0,null)
+n=A.ch("https://api.leiriaeats.com/companies/"+a,0,null)
 k=t.N
 k=A.ae(["Content-Type","application/json"],k,k)
 s=7
@@ -103345,7 +103345,7 @@ a6c(a){var s=0,r=A.J(t.Zh),q,p=2,o=[],n,m,l,k,j,i
 var $async$zs=A.F(function(b,c){if(b===1){o.push(c)
 s=p}for(;;)switch(s){case 0:p=4
 s=7
-return A.y(A.nE(A.ch("https://api.inovacloud.app/products/restaurant/"+a,0,null),null),$async$zs)
+return A.y(A.nE(A.ch("https://api.leiriaeats.com/products/restaurant/"+a,0,null),null),$async$zs)
 case 7:n=c
 if(n.b===200){m=B.a5.hy(B.a0.bI(n.w),null)
 A.bE("\ud83d\udce6 Produto exemplo (JSON bruto): "+A.k(J.q1(m)?J.cw(m,0):"lista vazia"))
@@ -103378,7 +103378,7 @@ FZ(a){return this.aGV(a)},
 aGV(a){var s=0,r=A.J(t.y),q,p=2,o=[],n,m,l,k,j,i
 var $async$FZ=A.F(function(b,c){if(b===1){o.push(c)
 s=p}for(;;)switch(s){case 0:p=4
-l=A.ch("https://api.inovacloud.app/product/"+A.k(a.a),0,null)
+l=A.ch("https://api.leiriaeats.com/product/"+A.k(a.a),0,null)
 k=t.N
 k=A.ae(["Content-Type","application/json"],k,k)
 s=7
@@ -103410,7 +103410,7 @@ aze(a){var s=0,r=A.J(t.y),q,p=2,o=[],n,m,l,k,j
 var $async$Dp=A.F(function(b,c){if(b===1){o.push(c)
 s=p}for(;;)switch(s){case 0:p=4
 s=7
-return A.y(A.aUT(A.ch("https://api.inovacloud.app/product/"+a,0,null)),$async$Dp)
+return A.y(A.aUT(A.ch("https://api.leiriaeats.com/product/"+a,0,null)),$async$Dp)
 case 7:n=c
 l=n.b
 q=l===200
@@ -103438,7 +103438,7 @@ ax8(a){var s=0,r=A.J(t.a),q,p=2,o=[],n,m,l,k,j,i,h,g,f,e
 var $async$CT=A.F(function(b,c){if(b===1){o.push(c)
 s=p}for(;;)switch(s){case 0:p=4
 h=""+a
-n=A.ch("https://api.inovacloud.app/orders/"+h+"/cancel",0,null)
+n=A.ch("https://api.leiriaeats.com/orders/"+h+"/cancel",0,null)
 A.bE("\ud83d\udeab Cancelando pedido #"+h+" em: "+A.k(n))
 s=7
 return A.y(A.zM(n,null,null),$async$CT)
@@ -103478,7 +103478,7 @@ a65(a){var s=0,r=A.J(t.j),q,p=2,o=[],n,m,l,k,j
 var $async$zp=A.F(function(b,c){if(b===1){o.push(c)
 s=p}for(;;)switch(s){case 0:p=4
 s=7
-return A.y(A.nE(A.ch("https://api.inovacloud.app/orders/"+a,0,null),null),$async$zp)
+return A.y(A.nE(A.ch("https://api.leiriaeats.com/orders/"+a,0,null),null),$async$zp)
 case 7:n=c
 if(n.b===200){l=B.a5.hy(B.a0.bI(n.w),null)
 q=l
@@ -103508,7 +103508,7 @@ a67(a){var s=0,r=A.J(t.X7),q,p=2,o=[],n,m,l,k,j,i,h
 var $async$zq=A.F(function(b,c){if(b===1){o.push(c)
 s=p}for(;;)switch(s){case 0:p=4
 j=""+a
-n=A.ch("https://api.inovacloud.app/restaurant/"+j+"/courier-preference",0,null)
+n=A.ch("https://api.leiriaeats.com/restaurant/"+j+"/courier-preference",0,null)
 A.bE("\ud83d\udef5 Buscando prefer\xeancia de estafeta ("+j+") em: "+A.k(n))
 s=7
 return A.y(A.nE(n,null),$async$zq)
@@ -103544,7 +103544,7 @@ aGT(a,b){var s=0,r=A.J(t.y),q,p=2,o=[],n,m,l,k,j,i,h
 var $async$FY=A.F(function(c,d){if(c===1){o.push(d)
 s=p}for(;;)switch(s){case 0:p=4
 k=""+a
-n=A.ch("https://api.inovacloud.app/restaurant/"+k+"/courier-preference",0,null)
+n=A.ch("https://api.leiriaeats.com/restaurant/"+k+"/courier-preference",0,null)
 A.bE("\ud83d\udef5 Atualizando estafeta pr\xf3prio ("+k+"): "+b+" \u2192 "+A.k(n))
 k=t.N
 j=A.ae(["Content-Type","application/json"],k,k)
@@ -103580,7 +103580,7 @@ a6l(a){var s=0,r=A.J(t.ob),q,p=2,o=[],n,m,l,k,j,i,h
 var $async$zv=A.F(function(b,c){if(b===1){o.push(c)
 s=p}for(;;)switch(s){case 0:p=4
 j=""+a
-n=A.ch("https://api.inovacloud.app/connect/dashboard/"+j,0,null)
+n=A.ch("https://api.leiriaeats.com/connect/dashboard/"+j,0,null)
 A.bE("\ud83d\udcb3 Buscando dashboard Stripe ("+j+") em: "+A.k(n))
 s=7
 return A.y(A.nE(n,null),$async$zv)
@@ -103616,7 +103616,7 @@ a6g(a){var s=0,r=A.J(t.m9),q,p=2,o=[],n,m,l,k,j,i
 var $async$zu=A.F(function(b,c){if(b===1){o.push(c)
 s=p}for(;;)switch(s){case 0:p=4
 s=7
-return A.y(A.nE(A.ch("https://api.inovacloud.app/restaurant/"+a+"/hours",0,null),null),$async$zu)
+return A.y(A.nE(A.ch("https://api.leiriaeats.com/restaurant/"+a+"/hours",0,null),null),$async$zu)
 case 7:n=c
 if(n.b===200){m=B.a5.hy(B.a0.bI(n.w),null)
 A.bE("\ud83d\udd50 Hor\xe1rios recebidos: "+A.k(m))
@@ -103657,7 +103657,7 @@ n=B.a5.mB(k,null)
 A.bE("\ud83d\udce4 Enviando hor\xe1rios: "+A.k(n))
 k=t.N
 s=7
-return A.y(A.zM(A.ch("https://api.inovacloud.app/restaurant/"+a+"/hours",0,null),n,A.ae(["Content-Type","application/json"],k,k)),$async$zA)
+return A.y(A.zM(A.ch("https://api.leiriaeats.com/restaurant/"+a+"/hours",0,null),n,A.ae(["Content-Type","application/json"],k,k)),$async$zA)
 case 7:m=d
 if(m.b===200||m.b===201){A.bE("\u2705 Hor\xe1rios salvos com sucesso!")
 q=!0
@@ -103688,7 +103688,7 @@ a5T(a){var s=0,r=A.J(t.Fu),q,p=2,o=[],n,m,l,k,j,i,h
 var $async$zl=A.F(function(b,c){if(b===1){o.push(c)
 s=p}for(;;)switch(s){case 0:p=4
 j=""+a
-n=A.ch("https://api.inovacloud.app/restaurant/"+j+"/delivery-zones",0,null)
+n=A.ch("https://api.leiriaeats.com/restaurant/"+j+"/delivery-zones",0,null)
 A.bE("\ud83d\uddfa\ufe0f Buscando zonas de entrega ("+j+") em: "+A.k(n))
 s=7
 return A.y(A.nE(n,null),$async$zl)
@@ -103728,7 +103728,7 @@ a6u(a,b){var s=0,r=A.J(t.y),q,p=2,o=[],n,m,l,k,j,i,h
 var $async$zz=A.F(function(c,d){if(c===1){o.push(d)
 s=p}for(;;)switch(s){case 0:p=4
 k=""+a
-n=A.ch("https://api.inovacloud.app/restaurant/"+k+"/delivery-zones",0,null)
+n=A.ch("https://api.leiriaeats.com/restaurant/"+k+"/delivery-zones",0,null)
 A.bE("\ud83d\udce4 Guardando zonas de entrega ("+k+") em: "+A.k(n))
 k=t.N
 k=A.ae(["Content-Type","application/json"],k,k)
